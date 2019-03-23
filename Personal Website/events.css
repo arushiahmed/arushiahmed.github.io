@@ -1,0 +1,79 @@
+body
+{
+  margin: auto;
+}
+
+.container
+{
+	display: grid;
+	grid-template-columns: 180px 80px 180px;
+	text-align: center;
+	margin: auto;
+	margin-left: 33.5%
+}
+          
+.diamond
+{
+	  height: 20px;
+  	width: 20px;
+  	background-color: transparent;
+  	border-style: solid;
+  	border-color: black;
+  	-webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: auto;
+    text-align: center;
+}
+ 
+.line
+{
+	border-bottom: 2px solid black;
+	width: auto;
+	float: center;
+	text-align: center;
+} 
+
+h1
+{
+	font-weight: bold;
+  font-family: Oxygen;
+  color: black;
+  text-align: center;
+}
+
+.textbox
+{
+  height: 100px;
+  width: 425px;
+  margin: auto;
+}
+
+p
+{
+  text-align: center; 
+  height: 250px; 
+  width: 450px; 
+  margin: auto; 
+  word-spacing: 1.5px; 
+  font-size: 18px; 
+  font-family: Oxygen;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+  float: center;
+}
+
+.column 
+{
+  float: left;
+  width: 25%;
+}

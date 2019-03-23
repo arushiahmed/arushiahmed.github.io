@@ -1,0 +1,33 @@
+body
+{
+	background-image: url("pictures/CoverPhoto.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+
+.cover 
+{
+	margin:13em auto 12em;
+	width:100%;
+	text-align: center;
+}
+
+h1
+{
+	font-size: 3.5em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cover p
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Oxygen;
+	color: white;
+	text-align: center;
+}

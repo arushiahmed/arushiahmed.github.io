@@ -1,0 +1,72 @@
+body
+{
+  margin: auto;
+}
+
+.container
+{
+  display: grid;
+  grid-template-columns: 180px 80px 180px;
+  text-align: center;
+  margin: auto;
+  margin-left: 33.5%
+}
+          
+.diamond
+{
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: black;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: auto;
+  text-align: center;
+}
+ 
+.line
+{
+  border-bottom: 2px solid black;
+  width: auto;
+  float: center;
+  text-align: center;
+} 
+
+.articles ul
+{
+  padding: 0;
+  list-style: none;
+}
+
+.articles ul li
+{
+  font-family: Oxygen;
+  font-size: 36px;
+  margin-left: 15px;
+}
+
+.articles ul li a
+{
+  text-decoration: none;
+  color: #000000;
+}
+
+.textbox
+{
+  height: 100px;
+  width: 425px;
+  margin: auto;
+}
+
+p
+{
+  text-align: center; 
+  height: 250px; 
+  width: 450px; 
+  margin: auto; 
+  word-spacing: 2.5px; 
+  font-size: 18px; 
+  font-family: Oxygen;
+}
+
