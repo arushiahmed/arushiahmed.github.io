@@ -1,3 +1,10 @@
+body
+{
+  margin: 0;
+  background-image: url("pictures/backgroundNew.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container
 {
   display: grid;
@@ -147,11 +154,6 @@ p
 {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-body
-{
-  margin: 0;
 }
 
 .row 

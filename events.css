@@ -1,6 +1,9 @@
 body
 {
-  margin: auto;
+    margin: auto;
+    background-image: url("pictures/backgroundNew.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container

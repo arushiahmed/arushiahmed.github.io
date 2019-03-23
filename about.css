@@ -1,7 +1,9 @@
 body
 {
 	margin: auto;
-	background-color: white;
+	background-image: url("pictures/backgroundNew.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .Title h1
@@ -66,7 +68,7 @@ body
 	word-spacing: 2.5px;
 	font-size: 18px;
 	max-width: 100%;
-	margin-left: center;
+	margin-left: 25px;
 	float: left;
 }
 
@@ -79,7 +81,7 @@ body
 	width: 350px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin-left: 0;
+	margin-left: 5px;
 }
 
 
